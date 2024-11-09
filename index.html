@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- Header Section -->
+      <header class="header">
+        <h1 id="resume-name">Dilshad Ahmed</h1>
+        <p id="job-title">Teacher</p>
+      </header>
+
+      <!-- Profile Section -->
+      <section class="profile-section">
+        <div class="profile-text">
+          <h3 class="section-title">PROFILE</h3>
+          <p id="resume-profile-description">
+            Dedicated and passionate school teacher focused on creating an
+            engaging, inclusive classroom. Skilled in delivering tailored
+            lessons, fostering critical thinking, and supporting student growth.
+            Known for strong relationships with students, parents, and
+            colleagues.
+          </p>
+          <div class="contact-info">
+            <i class="fa-solid fa-phone" style="color: #e74c3c"></i>
+            <p class="info" id="resume-phone">0342-1234567</p>
+          </div>
+          <div class="contact-info">
+            <i class="fa-solid fa-envelope" style="color: #e74c3c"></i>
+
+            <p class="info" id="resume-email">da12455@example.com</p>
+          </div>
+        </div>
+        <div class="profile-photo">
+          <img
+            id="resume-photo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQTb3Fp_DoCmuMr9Iktvv-QsPB4eQuN-DTTD0-pcCvSTGjlm0y0AJ7K-ZoCLMmBBUhLU0&usqp=CAU"
+            alt="Profile Photo"
+          />
+        </div>
+      </section>
+
+      <!-- Columns for Education, Experience, Certification, Skills -->
+      <div class="columns">
+        <!-- Left Column -->
+        <section class="left-column">
+          <section id="education-section" class="education-section">
+            <h3 class="section-title">EDUCATION</h3>
+            <div class="education-content" id="Institution1">
+              University of the Punjab, Lahore
+            </div>
+            <div class="degree" id="degree1">Bachelor of Education (B.Ed.)</div>
+            <br />
+            <div class="education-content" id="Institution2">
+              Aga Khan University, Karachi
+            </div>
+            <div class="degree" id="degree2">
+              Master of Arts in Education (M.A. Education)
+            </div>
+          </section>
+
+          <section id="certifications-section" class="certifications-section">
+            <h3 class="section-title">CERTIFICATION</h3>
+            <ul>
+              <li id="certification1">Teaching Knowledge Test (TKT)</li>
+              <li id="certificatioCertified Educator Level 1n2">
+                Certified Educator Level 1
+              </li>
+              <li id="certification3">Child Development Associate (CDA)</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Right Column -->
+         <!-- Experience Section -->
+        <section class="right-column">
+          <section id="experience-section" class="experience-section">
+            <h3 class="section-title">EXPERIENCE</h3>
+            <article class="job-entry">
+              <div class="experience-date" id="experience-date1">2000-2005</div>
+              <div class="experience-content" id="company1">
+                Beaconhouse School System
+              </div>
+              <div class="experience-content" id="position1">
+                Elementary School Teacher
+              </div>
+              <br />
+            </article>
+            <article class="job-entry">
+              <div class="experience-date" id="experience-date2">2005-2010</div>
+              <div class="experience-content" id="company2">
+                The City School
+              </div>
+              <div class="experience-content" id="position2">
+                High School English Teacher
+              </div>
+            </article>
+          </section>
+          <!-- Skills Section -->
+          <section id="skills-section" class="skills-section">
+            <h3 class="section-title">SKILLS</h3>
+            <ul>
+              <li id="resume-skill1">Classroom Management</li>
+              <li id="resume-skill2">Effective Communication</li>
+              <li id="resume-skill3">Collaboration and Teamwork</li>
+              <li id="resume-skill4">Effective Communication</li>
+            </ul>
+          </section>
+        </section>
+      </div>
+    </main>
+    <!-- Buttons section -->>
+    <div class="btnDiv">
+      <button id="educationBtn" class="btn">EDUCATION</button>
+      <button id="certificationBtn" class="btn">CERTIFICATION</button>
+      <button id="experienceBtn" class="btn">EXPERIENCE</button>
+      <button id="skillsBtn" class="btn">SKILLS</button>
+    </div>
+  </body>
+  <script src="resumeScript.js"></script>
+</html>
